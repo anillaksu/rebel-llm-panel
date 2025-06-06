@@ -1,56 +1,40 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.pyc
+*.pdm.toml
+*.pdm.lock
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
 
 # VSCode
 .vscode/
 
-# Logs
-*.log
+# Terminal log
 logs/
-rebel_log.txt
-last_action_log.txt
+*.log
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Windows Python virtualenv
-env/
-venv/
-ENV/
-env.bak/
+# Test cache
+.pytest_cache/
 
-# IDE
-.idea/
+# LLaMA.cpp submodule (keep it as submodule)
+external/llama.cpp/
 
-# C# / .NET / Terminal.Gui / RebelCommander
-RebelCommander/bin/
-RebelCommander/obj/
+# C# / .NET
+bin/
+obj/
 
-# LLaMA.cpp (external repo, already submodule)
-external/llama.cpp
-
-# Sessions (runtime data)
-sessions/
-memory/
-
-# Build artifacts
-run_chat.bat
-run.bat
-main-menu-run.bat
-
-# Misc
-*.swp
-*.swo
+# Backup files
 *.bak
+*.swp
 *.tmp
-
-# Tasks generated files
-tasks/task_list.yaml
-
-# YankıOS related (if any temp)
-yanki_iso_temp/
