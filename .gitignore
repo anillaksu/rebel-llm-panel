@@ -1,40 +1,47 @@
+# REBEL LLM PANEL GITIGNORE 🚀
+
+# OS Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pdm.toml
-*.pdm.lock
-.env
-.venv/
-env/
-venv/
 *.egg-info/
-dist/
-build/
 
-# VSCode
+# IDE
 .vscode/
+.idea/
 
-# Terminal log
+# Env
+.env
+.env.*
+*.env
+
+# Logs
 logs/
 *.log
 
-# OS files
-.DS_Store
-Thumbs.db
+# Models
+models/
+*.gguf
+*.bin
+*.pth
+*.ckpt
 
-# Test cache
-.pytest_cache/
-
-# LLaMA.cpp submodule (keep it as submodule)
+# External
 external/llama.cpp/
 
-# C# / .NET
-bin/
-obj/
+# Tests cache
+.pytest_cache/
 
-# Backup files
-*.bak
+# C# / .NET build artifacts
+RebelCommander/bin/
+RebelCommander/obj/
+
+# Misc
 *.swp
-*.tmp
+*.swo
