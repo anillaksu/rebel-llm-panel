@@ -1,47 +1,39 @@
-# REBEL LLM PANEL GITIGNORE 🚀
-
-# OS Junk
-.DS_Store
-Thumbs.db
-desktop.ini
-
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.egg-info/
-
-# IDE
-.vscode/
-.idea/
-
-# Env
-.env
-.env.*
 *.env
+.env
 
 # Logs
-logs/
 *.log
+*.log.txt
+logs/
+tools/logs/
 
 # Models
-models/
-*.gguf
-*.bin
-*.pth
-*.ckpt
+models/*.gguf
+models/*.bin
 
-# External
-external/llama.cpp/
+# External build + vocab
+external/llama.cpp/build/
+external/llama.cpp/models/
+external/llama.cpp/*.log
+external/llama.cpp/*.txt
 
-# Tests cache
-.pytest_cache/
+# External git repo
+external/llama.cpp/.git/
 
-# C# / .NET build artifacts
-RebelCommander/bin/
-RebelCommander/obj/
+# VSCode
+.vscode/
+
+# C# build output
+bin/
+obj/
 
 # Misc
-*.swp
-*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
