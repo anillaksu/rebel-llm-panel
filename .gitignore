@@ -1,32 +1,56 @@
-# __pycache__ klasörleri ve derlenmiş Python dosyaları
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.pyc
 
-# Log dosyaları
-logs/
-*.log
-
-# Ortam dosyaları
-.env
-.env.*
-
-# Virtualenv klasörleri
-venv/
-.venv/
-
-# IDE/editor ayarları
+# VSCode
 .vscode/
-.idea/
-*.swp
 
-# GGUF modelleri ve büyük dosyalar
-*.gguf
-models/
-downloads/
+# Logs
+*.log
+logs/
+rebel_log.txt
+last_action_log.txt
 
-# Test çıktı dosyaları
-*.out
-*.testlog
-
-# Diğer
+# OS files
 .DS_Store
+Thumbs.db
+
+# Windows Python virtualenv
+env/
+venv/
+ENV/
+env.bak/
+
+# IDE
+.idea/
+
+# C# / .NET / Terminal.Gui / RebelCommander
+RebelCommander/bin/
+RebelCommander/obj/
+
+# LLaMA.cpp (external repo, already submodule)
+external/llama.cpp
+
+# Sessions (runtime data)
+sessions/
+memory/
+
+# Build artifacts
+run_chat.bat
+run.bat
+main-menu-run.bat
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Tasks generated files
+tasks/task_list.yaml
+
+# YankıOS related (if any temp)
+yanki_iso_temp/

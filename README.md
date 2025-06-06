@@ -1,14 +1,40 @@
-# ðŸ§  REBEL LLM Assistant
+# REBEL LLM PANEL
 
-Yerel, gÃ¼venli ve modÃ¼ler Ã§alÄ±ÅŸan bir LLM gÃ¶rev takip sistemidir.  
-HiÃ§bir iÅŸlem kullanÄ±cÄ± kontrolÃ¼ dÄ±ÅŸÄ±nda gerÃ§ekleÅŸmez.  
-GÃ¶revler YAML ile tanÄ±mlanÄ±r, CLI panel Ã¼zerinden takip ve Ã§alÄ±ÅŸtÄ±rma yapÄ±lÄ±r.
+?? **REBEL LLM PANEL** ¡÷ Terminal tabanl?, gorev odakl?, *offline* cal??an LLM yonetim ve kontrol panelidir.
 
----
+## Ozellikler
+- YAML tabanl? gorev yonetimi
+- Terminal GUI uzerinden gorev listesi goruntuleme, filtreleme
+- Gorev detay gosterme
+- Gorev komut cal??t?rma (subprocess)
+- Log goruntuleme (son 20 sat?r)
+- Dosya goruntuleme (log dosyalar? ve YAML)
+- Gorev duzenleme h?zl? eri?im
+- Snapshot alma (tasks.yaml yede?i)
 
-## ðŸš€ Kurulum
-
+## Kullan?m
 ```bash
-git clone https://github.com/kendikodun/rebel_llm.git
-cd rebel_llm
+git clone https://github.com/anillaksu/rebel-llm-panel.git
+cd rebel-llm-panel
 pip install -r requirements.txt
+python main.py
+Proje Yap?s?
+bash
+Kopyala
+Duzenle
+¢u¢w¢w core/           ¡÷ Ana moduller (logger, task runner, test runner, vb.)
+¢u¢w¢w tasks/          ¡÷ Gorev listesi ve gorev ?ablonlar?
+¢u¢w¢w ui/             ¡÷ Terminal GUI ve panel scriptleri
+¢u¢w¢w logs/           ¡÷ Log dosyalar?
+¢u¢w¢w scripts/        ¡÷ Kurulum ve destek scriptleri
+¢u¢w¢w main.py         ¡÷ Ana giri? noktas? (REBEL LLM PANEL)
+¢u¢w¢w requirements.txt
+¢u¢w¢w README.md
+¢|¢w¢w LICENSE
+Gereksinimler
+Python >= 3.9
+
+Windows / Linux (test edilmi?)
+
+Lisans
+MIT License ¡÷ LICENSE dosyas?na bak?n?z.
