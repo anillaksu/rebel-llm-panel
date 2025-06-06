@@ -1,10 +1,8 @@
 @echo off
 setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 
-REM Get timestamp
-for /f "tokens=2 delims==." %%I in ('wmic os get localdatetime /value') do set datetime=%%I
-set datestamp=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2%
-set timestamp=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2% %datetime:~8,2%:%datetime:~10,2%:%datetime:~12,2%
+REM Get timestamp (universal way)
+for /f "usebackq tokens=*" %%i in (`powershell -command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set timestamp=%%i
 
 REM Log header
 echo ============================ >> publish_log.txt
