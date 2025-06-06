@@ -9,25 +9,32 @@ echo ============================ >> publish_log.txt
 echo REBEL AUTO PUBLISH → %timestamp% >> publish_log.txt
 echo ============================ >> publish_log.txt
 
+REM Ekrana bilgi
+echo [REBEL] Auto Publish Basladi → %timestamp%
+echo -----------------------------
+
 REM Git add
-echo [REBEL] Running: git add . >> publish_log.txt
+echo [REBEL] Running: git add .
 git add . >> publish_log.txt 2>&1
 
 REM Git commit
-echo [REBEL] Running: git commit -m "Auto publish → %timestamp%" >> publish_log.txt
+echo [REBEL] Running: git commit -m "Auto publish → %timestamp%"
 git commit -m "Auto publish → %timestamp%" >> publish_log.txt 2>&1
 
 REM Git push
-echo [REBEL] Running: git push origin main >> publish_log.txt
+echo [REBEL] Running: git push origin main
 git push origin main >> publish_log.txt 2>&1
 
 REM Check errorlevel for success/failure
 IF %ERRORLEVEL% EQU 0 (
+    echo [SUCCESS] Publish completed → %timestamp%
     echo [SUCCESS] Publish completed → %timestamp% >> publish_log.txt
 ) ELSE (
+    echo [ERROR] Publish failed → %timestamp%
     echo [ERROR] Publish failed → %timestamp% >> publish_log.txt
 )
 
 REM Done
+echo -----------------------------
 echo Done. Press any key to exit.
 pause > nul
