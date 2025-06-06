@@ -34,8 +34,7 @@ build/
 *.obj
 *.exe
 
-# Llama.cpp external repo (add as submodule instead)
-external/llama.cpp/
+
 
 # Tests
 pytest_cache/
