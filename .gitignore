@@ -1,39 +1,41 @@
+# REBEL LLM STANDARD .gitignore
+
 # Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.env
+
+# Virtual env
 .env
+.venv
+env/
+venv/
 
-# Logs
-*.log
-*.log.txt
-logs/
-tools/logs/
-
-# Models
-models/*.gguf
-models/*.bin
-
-# External build + vocab
-external/llama.cpp/build/
-external/llama.cpp/models/
-external/llama.cpp/*.log
-external/llama.cpp/*.txt
-
-# External git repo
-external/llama.cpp/.git/
-
-# VSCode
+# IDE / Editor
 .vscode/
+.idea/
 
-# C# build output
-bin/
-obj/
-
-# Misc
+# OS
 .DS_Store
 Thumbs.db
-*.tmp
-*.bak
+
+# Logs
+logs/
+*.log
+
+# Models
+models/
+*.gguf
+*.bin
+
+# Build
+build/
+*.lib
+*.obj
+*.exe
+
+# Llama.cpp external repo (add as submodule instead)
+external/llama.cpp/
+
+# Tests
+pytest_cache/
