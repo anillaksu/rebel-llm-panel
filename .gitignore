@@ -1,0 +1,35 @@
+# REBEL LLM PANEL GITIGNORE
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Ignore built bat files
+*.bat~
+
+# Ignore IDE settings
+.idea/
+
+# Backup files
+*.bak
+*.swp
+*.swo
