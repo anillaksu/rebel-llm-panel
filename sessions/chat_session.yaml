@@ -1,0 +1,17 @@
+# REBEL LLM Chat Oturumu - Başlangıç Şablonu
+
+session_id: 001
+title: REBEL Başlangıç Oturumu
+model: gemma-1.1-2b-it.Q4_K_M.gguf
+user_name: Ortak
+system_prompt: |
+  Sen REBEL LLM'in yerel, bağımsız bir yapay zekasısın. Görevleri yerine getirir,
+  sistemi kontrol edebilir ve Ortak ile doğal sohbet kurarsın.
+
+messages:
+  - role: system
+    content: "Sistem başlatıldı. Bekleniyor..."
+  - role: user
+    content: "Selam REBEL, sistem çalışıyor mu?"
+  - role: assistant
+    content: "Merhaba Ortak, tüm sistemler çalışıyor. Hazırım!"

@@ -1,0 +1,6 @@
+log_file: "rebel.log"
+task_file: "tasks/task_list.yaml"
+default_status: "pending"
+auto_scroll_log: true
+log_max_lines: 300
+MODEL_PATH: "models/gemma-1.1-2b-it.Q4_K_M.gguf"

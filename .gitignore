@@ -1,0 +1,32 @@
+# __pycache__ klasörleri ve derlenmiş Python dosyaları
+__pycache__/
+*.py[cod]
+
+# Log dosyaları
+logs/
+*.log
+
+# Ortam dosyaları
+.env
+.env.*
+
+# Virtualenv klasörleri
+venv/
+.venv/
+
+# IDE/editor ayarları
+.vscode/
+.idea/
+*.swp
+
+# GGUF modelleri ve büyük dosyalar
+*.gguf
+models/
+downloads/
+
+# Test çıktı dosyaları
+*.out
+*.testlog
+
+# Diğer
+.DS_Store

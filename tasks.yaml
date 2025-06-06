@@ -1,0 +1,98 @@
+tasks:
+- command: echo LED prototipi test ediliyor...
+  id: 1
+  status: done
+  title: LED matris sesli yüz animasyon prototipi
+- command: echo Arduino CLI çalıştırılıyor...
+  id: 2
+  status: done
+  title: Arduino CLI ile Termux üzerinden yükleme denemesi
+- id: 3
+  status: done
+  title: YankıOS Hybrid sistem başlangıç tasarımı
+- id: 4
+  status: done
+  title: Whonix tabanlı Stealth Fortress sistem planlaması
+- id: 5
+  status: done
+  title: Rebel AI terminal paneli ilk versiyon
+- command: echo Yankı ISO üretimi başarıyla tamamlandı
+  id: 6
+  status: done
+  title: Yankı Core Rescue ISO üretimi
+- command: echo Termux Debian başlatılıyor...
+  id: 7
+  status: done
+  title: Termux altında Debian başlatma
+- id: 8
+  status: done
+  title: LLM model kurulum planı ve token kontrol sistemi
+- id: 9
+  status: done
+  title: TTS altyapısı kurulumu ve testleri
+- id: 10
+  status: done
+  title: YAML tabanlı görev takip sisteminin temeli
+- id: 11
+  status: done
+  title: Model benchmark sistemi kurulumu
+- command: echo Textual panel çalışıyor...
+  id: 12
+  status: done
+  title: Textual arayüz prototipi ile görev seçimi
+- id: 13
+  status: pending
+  title: VRAM sınır testi ve GPU katman analizi
+- command: python scripts/download_gemma.py
+  id: 14
+  status: pending
+  title: Gemma GGUF modeli Aria2 ile indirme işlemi
+- id: 15
+  status: pending
+  title: Görev runner - subprocess entegrasyonu
+- id: 16
+  status: pending
+  title: FTP + SSH ile cihazlar arası paylaşım testi
+- id: 17
+  status: pending
+  title: Tailscale bağlantı yönetimi ve testleri
+- id: 18
+  status: pending
+  title: Bitwarden ekstra güvenlik doğrulaması
+- id: 19
+  status: pending
+  title: Offline AI eğitim verisi (görsel/işitsel) toplanması
+- id: 20
+  status: pending
+  title: MCP belleğinin optimize edilmesi
+- id: 21
+  status: pending
+  title: Textual UI teması ve görsel tasarımı
+- id: 22
+  status: done
+  title: task_runner için hata loglama sistemi
+- id: 23
+  status: done
+  title: İlk manifestonun yazımı
+- id: 24
+  status: done
+  title: REBEL LLM Assistant context belleğe alınması
+- id: 25
+  status: done
+  title: YAML görev listesi genişletildi
+- command: python main.py
+  id: 26
+  status: done
+  title: main.py ile sistem merkezleştirildi
+- id: 27
+  status: done
+  title: setup_rebel_llm.bat dosyası oluşturuldu
+- id: 28
+  status: done
+  title: Dosya sistemi ve klasör iskeleti oluşturuldu
+- id: 29
+  status: done
+  title: Terminal framework kararı ertelendi
+- id: 30
+  status: pending
+  title: Textual panelle entegrasyon test edilecek

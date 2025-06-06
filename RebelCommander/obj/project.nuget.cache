@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "28HYCGq8yWQ=",
+  "success": true,
+  "projectFilePath": "D:\\REBELLIONLLM\\REBEL_LLM\\RebelCommander\\RebelCommander.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RA\\.nuget\\packages\\nstack.core\\1.1.1\\nstack.core.1.1.1.nupkg.sha512",
+    "C:\\Users\\RA\\.nuget\\packages\\system.codedom\\9.0.4\\system.codedom.9.0.4.nupkg.sha512",
+    "C:\\Users\\RA\\.nuget\\packages\\system.management\\9.0.4\\system.management.9.0.4.nupkg.sha512",
+    "C:\\Users\\RA\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\RA\\.nuget\\packages\\terminal.gui\\1.18.1\\terminal.gui.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}

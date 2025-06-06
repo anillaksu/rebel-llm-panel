@@ -1,0 +1,150 @@
+tasks:
+  - id: 1
+    name: "LED matris sesli yüz animasyonu prototipi"
+    command: "echo Görev 1 çalıştırıldı"
+    status: "done"
+
+  - id: 2
+    name: "Arduino CLI ile Termux üzerinden yükleme denemesi"
+    command: "echo Görev 2 çalıştırıldı"
+    status: "done"
+
+  - id: 3
+    name: "YankıOS Hybrid sistem başlangıç tasarımı"
+    command: "echo Görev 3 çalıştırıldı"
+    status: "done"
+
+  - id: 4
+    name: "Whonix tabanlı Stealth Fortress sistem planlaması"
+    command: "echo Görev 4 çalıştırıldı"
+    status: "done"
+
+  - id: 5
+    name: "Rebel AI terminal paneli ilk versiyon"
+    command: "echo Görev 5 çalıştırıldı"
+    status: "done"
+
+  - id: 6
+    name: "Yankı Core Rescue ISO üretimi"
+    command: "echo Görev 6 çalıştırıldı"
+    status: "done"
+
+  - id: 7
+    name: "Termux altında Debian başlatma"
+    command: "echo Görev 7 çalıştırıldı"
+    status: "done"
+
+  - id: 8
+    name: "LLM model kurulum planı ve token kontrol sistemi"
+    command: "echo Görev 8 çalıştırıldı"
+    status: "done"
+
+  - id: 9
+    name: "TTS altyapısı kurulumu ve testleri"
+    command: "echo Görev 9 çalıştırıldı"
+    status: "done"
+
+  - id: 10
+    name: "YAML tabanlı görev takip sisteminin temeli"
+    command: "echo Görev 10 çalıştırıldı"
+    status: "done"
+
+  - id: 11
+    name: "Model benchmark sistemi kurulumu"
+    command: "echo Görev 11 çalıştırıldı"
+    status: "pending"
+
+  - id: 12
+    name: "Textual arayüz prototipi ile görev seçimi"
+    command: "echo Görev 12 çalıştırıldı"
+    status: "pending"
+
+  - id: 13
+    name: "VRAM sınır testi ve GPU katman analizi"
+    command: "echo Görev 13 çalıştırıldı"
+    status: "pending"
+
+  - id: 14
+    name: "Gemma GGUF modeli Aria2 ile indirme işlemi"
+    command: "echo Görev 14 çalıştırıldı"
+    status: "pending"
+
+  - id: 15
+    name: "Görev runner - subprocess entegrasyonu"
+    command: "echo Görev 15 çalıştırıldı"
+    status: "pending"
+
+  - id: 16
+    name: "FTP + SSH ile cihazlar arası paylaşım testi"
+    command: "echo Görev 16 çalıştırıldı"
+    status: "pending"
+
+  - id: 17
+    name: "Tailscale bağlantı yönetimi ve testleri"
+    command: "echo Görev 17 çalıştırıldı"
+    status: "pending"
+
+  - id: 18
+    name: "Bitwarden ekstra güvenlik doğrulaması"
+    command: "echo Görev 18 çalıştırıldı"
+    status: "pending"
+
+  - id: 19
+    name: "Offline AI eğitim verisi (görsel/işitsel) toplanması"
+    command: "echo Görev 19 çalıştırıldı"
+    status: "pending"
+
+  - id: 20
+    name: "MCP belleğinin optimize edilmesi"
+    command: "echo Görev 20 çalıştırıldı"
+    status: "pending"
+
+  - id: 21
+    name: "Textual UI teması ve görsel tasarım"
+    command: "echo Görev 21 çalıştırıldı"
+    status: "pending"
+
+  - id: 22
+    name: "task_runner için hata loglama sistemi"
+    command: "echo Görev 22 çalıştırıldı"
+    status: "pending"
+
+  - id: 23
+    name: "İlk manifestonun yazımı"
+    command: "echo Görev 23 çalıştırıldı"
+    status: "done"
+
+  - id: 24
+    name: "REBEL LLM Assistant context belleğe alınması"
+    command: "echo Görev 24 çalıştırıldı"
+    status: "done"
+
+  - id: 25
+    name: "YAML görev listesi genişletildi"
+    command: "echo Görev 25 çalıştırıldı"
+    status: "done"
+
+  - id: 26
+    name: "main.py ile sistem merkezleştirildi"
+    command: "echo Görev 26 çalıştırıldı"
+    status: "done"
+
+  - id: 27
+    name: "setup_rebel_llm.bat dosyası oluşturuldu"
+    command: "echo Görev 27 çalıştırıldı"
+    status: "done"
+
+  - id: 28
+    name: "Dosya sistemi ve klasör iskeleti oluşturuldu"
+    command: "echo Görev 28 çalıştırıldı"
+    status: "done"
+
+  - id: 29
+    name: "Terminal framework kararı ertelendi"
+    command: "echo Görev 29 çalıştırıldı"
+    status: "done"
+
+  - id: 30
+    name: "Textual panelle entegrasyon test edilecek"
+    command: "echo Görev 30 çalıştırıldı"
+    status: "pending"

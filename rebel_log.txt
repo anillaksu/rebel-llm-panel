@@ -1,0 +1,9 @@
+User input: hey
+User input: sea
+REBEL AI starting...
+Using model path: D:/projeler/REBELLIONLLM/rebel_llm/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+User input: hey naber
+Using model path: D:\projeler\REBELLIONLLM\rebel_llm\models\gemma-1.1-2b-it.Q4_K_M.gguf
+User input: merhaba
+User input: cevap verecek misin?
+User input: ortaselamlar

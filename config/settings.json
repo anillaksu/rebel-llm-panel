@@ -1,0 +1,7 @@
+{
+  "model_path": "models/gemma-1.1-2b-it.Q4_K_M.gguf",
+  "gpu_layers": 0,
+  "temp": 0.7,
+  "repeat_penalty": 1.1,
+  "context_window": 2048
+}
