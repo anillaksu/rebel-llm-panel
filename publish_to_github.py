@@ -1,26 +1,27 @@
-import os
+#!/usr/bin/env python3
+# publish_to_github.py → REBEL AUTO PUBLISH SCRIPT 🌀
+
 import subprocess
-from datetime import datetime
+import datetime
 
-REPO_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-COMMIT_MESSAGE = f"🔄 Otomatik güncelleme - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-
-def run_git_command(command):
-    result = subprocess.run(command, shell=True, cwd=REPO_PATH, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-    if result.returncode != 0:
-        print(f"[HATA] Komut başarısız: {command}")
+def run_git_command(cmd):
+    print(f"[REBEL] Running: {cmd}")
+    result = subprocess.run(cmd, shell=True, text=True, capture_output=True)
+    print(result.stdout)
+    if result.stderr:
         print(result.stderr)
-    else:
-        print(result.stdout)
-
-def main():
-    print("[REBEL] GitHub push işlemi başlatılıyor...")
-
-    run_git_command("git add .")
-    run_git_command(f'git commit -m "{COMMIT_MESSAGE}"')
-    run_git_command("git push")
-
-    print("[REBEL] Tüm değişiklikler GitHub’a yollandı.")
 
 if __name__ == "__main__":
-    main()
+    print(f"\n🚀 REBEL AUTO PUBLISH STARTED → {datetime.datetime.now()}\n")
+
+    # Git add all changes
+    run_git_command("git add .")
+
+    # Commit with timestamp
+    commit_msg = f'Auto publish → {datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")}'
+    run_git_command(f'git commit -m "{commit_msg}"')
+
+    # Push to origin main
+    run_git_command("git push origin main")
+
+    print(f"\n✅ REBEL AUTO PUBLISH COMPLETED → {datetime.datetime.now()}\n")
