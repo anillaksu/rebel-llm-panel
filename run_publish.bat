@@ -24,9 +24,9 @@ git commit -m "Auto publish → %timestamp%" >> publish_log.txt 2>&1
 REM Small delay to avoid file lock issues
 timeout /T 1 > nul
 
-REM Git push → canlı output + log (Tee)
+REM Git push → doğrudan ekrana yazdır → yüzdelik % bar için
 echo [REBEL] Running: git push origin main
-powershell -Command "git push origin main 2>&1 | Tee-Object -FilePath 'publish_log.txt' -Append"
+git push origin main --progress
 
 REM Check errorlevel for success/failure
 IF %ERRORLEVEL% EQU 0 (
