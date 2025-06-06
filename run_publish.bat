@@ -21,9 +21,12 @@ REM Git commit
 echo [REBEL] Running: git commit -m "Auto publish → %timestamp%"
 git commit -m "Auto publish → %timestamp%" >> publish_log.txt 2>&1
 
-REM Git push
+REM Small delay to avoid file lock issues
+timeout /T 1 > nul
+
+REM Git push → canlı output + log (Tee)
 echo [REBEL] Running: git push origin main
-git push origin main >> publish_log.txt 2>&1
+powershell -Command "git push origin main 2>&1 | Tee-Object -FilePath 'publish_log.txt' -Append"
 
 REM Check errorlevel for success/failure
 IF %ERRORLEVEL% EQU 0 (
