@@ -32,3 +32,7 @@ logs/
 # System files
 .DS_Store
 Thumbs.db
+
+# Bu satırın altına **EKLEME**
+!publish_to_github.py
+!run_publish.bat
