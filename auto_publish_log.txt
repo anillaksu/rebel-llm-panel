@@ -1,0 +1,11 @@
+============================ 
+REBEL LLM AUTO PUBLISH START 
+============================ 
+ 
+🚀 REBEL AUTO PUBLISH STARTED → Cmt 07.06.2025 20:16:39,64 
+ 
+----------------------------- 
+[REBEL] Running: auto_publish 
+----------------------------- 
+ 
+[REBEL] git add . 
