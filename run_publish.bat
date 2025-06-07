@@ -17,4 +17,7 @@ echo. >> auto_publish_log.txt
 echo 🚀 REBEL AUTO PUBLISH COMPLETED → %DATE% %TIME% >> auto_publish_log.txt
 echo. >> auto_publish_log.txt
 
+REM === Pause for user to see output ===
+pause
+
 endlocal
